@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #f1c40f; /* Sunflower Yellow */
-    --bg-color: #1a1a05;      /* Dark Charcoal with Yellow tint */
+    --primary-color: #e74c3c; /* Alizarin Red */
+    --bg-color: #1a0a0a;      /* Dark Crimson */
     --text-light: #ffffff;
-    --text-muted: #a3a375;    /* Muted Gold/Gray */
+    --text-muted: #b39b9b;    /* Muted Rose */
 }
 
 * {
@@ -41,7 +41,7 @@ h1 {
     margin: 0 auto;
     padding: 2rem;
     border-left: 4px solid var(--primary-color);
-    background: rgba(241, 196, 15, 0.05);
+    background: rgba(231, 76, 60, 0.05);
 }
 
 #quote-text {
@@ -77,19 +77,19 @@ h1 {
     background-color: var(--primary-color);
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 0 0 0 rgba(241, 196, 15, 0.4);
+    box-shadow: 0 0 0 rgba(231, 76, 60, 0.4);
     animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(241, 196, 15, 0.7);
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7);
     }
     70% {
-        box-shadow: 0 0 0 10px rgba(241, 196, 15, 0);
+        box-shadow: 0 0 0 10px rgba(231, 76, 60, 0);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(241, 196, 15, 0);
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
     }
 }
 
